@@ -1,0 +1,123 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Inicio header */
+.header {
+    background-color: #02A28F;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem 9.75rem 1rem 9.75rem;
+}
+
+/* Fim header */
+
+/* Inicio Body */
+
+body { 
+    /* Ocultando o scroll horizontal */
+    overflow-x: hidden;
+}
+
+.imagem-banner {
+    margin: 3.125rem 1.5rem 1.5rem 9.75rem;
+}
+
+.popular-posts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{ 
+    background-color: #02A28F;
+    border-radius: 0.625rem;
+    width: 22.5rem;
+    height: 3rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 3.125rem 9.6875rem 1.25rem 1.5625rem;
+    color: #FFFFFF;
+    width: 22.5rem;
+    height: 3rem;
+}
+
+.grid { 
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #000;
+}
+
+.image h2 {
+    font-size: 0.875rem;
+}
+
+.grid-item { 
+    display: flex;
+    border-radius: 10px;
+    margin-right: 9.6875rem;
+    margin-bottom: 1.25rem;
+    margin-left: 1.7rem;
+    box-shadow: 1px 1px 1px #000;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.container-text h2, p { 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-text p {
+    font-size: 0.75rem;
+}
+
+.container-text h2 { 
+    font-size: 0.875rem;
+}
+
+.category { 
+    display: flex;
+    flex-direction: column;
+}
+
+.category ul { 
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    margin-left: 1.7rem;
+}
+
+.recent-posts-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #02A28F;
+    width: 46.5rem;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    margin-left: 9.75rem;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+.grid { 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
